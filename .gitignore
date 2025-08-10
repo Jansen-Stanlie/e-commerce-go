@@ -1,0 +1,64 @@
+# =======================================
+# 🚫 Sensitive Environment Files
+# =======================================
+/user-service/.env
+/product-service/.env
+/payment-service/.env
+/order-service/.env
+/notification-service/.env
+
+# Ignore semua .env di subfolder mana pun
+**/.env
+*.env
+
+# =======================================
+# 🛠 Go Build & Cache
+# =======================================
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Build output
+*.test
+*.out
+
+# Go build cache
+/go.work
+/go.work.sum
+/vendor/
+
+# =======================================
+# 📦 Dependencies & Package Managers
+# =======================================
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# =======================================
+# 🐳 Docker
+# =======================================
+.dockerignore
+docker-compose.override.yml
+docker-compose.local.yml
+
+# =======================================
+# 🖥 IDE / Editor Files
+# =======================================
+.vscode/
+.idea/
+*.swp
+
+# =======================================
+# 🗂 OS Generated Files
+# =======================================
+.DS_Store
+Thumbs.db
+
+# =======================================
+# 🧪 Test Coverage
+# =======================================
+coverage.out
