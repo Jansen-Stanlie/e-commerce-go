@@ -367,7 +367,7 @@ func (u *userRepository) CreateUserAccount(ctx context.Context, req entity.UserE
 	}
 
 	if err := u.db.Create(&modelVerify).Error; err != nil {
-		log.Errorf("[UserRepository-3] CreateUserAccount: %v", err)
+		log.Errorf("[U ] CreateUserAccount: %v", err)
 		return 0, err
 	}
 

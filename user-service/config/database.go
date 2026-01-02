@@ -2,6 +2,7 @@ package config
 
 import (
 	"fmt"
+
 	"user-service/database/seeds"
 	"user-service/internal/core/domain/model"
 
